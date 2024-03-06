@@ -1,11 +1,13 @@
 import { View, Text } from "react-native";
 import React from "react";
-import styles from "./styles";
+import dtykr from "./styles";
 
-export default function Home() {
+const Title = () => {
   return (
     <View>
-      <Text>Home </Text>
+      <Text>Title</Text>
     </View>
   );
-}
+};
+
+export default Title;
