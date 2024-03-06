@@ -1,10 +1,10 @@
 import { View, Text } from "react-native";
 import React from "react";
-import dtykr from "./styles";
+import style from "./style";
 
 const Title = () => {
   return (
-    <View>
+    <View style={style.conteiner}>
       <Text>Title</Text>
     </View>
   );
